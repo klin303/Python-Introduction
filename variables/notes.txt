@@ -1,0 +1,52 @@
+Python Basics
+
+Key Facts:
+- Python is a scripting
+- Python is case-sensitive -> true is not the same as True
+- Comments are made using the # sign
+
+
+Overview of data types:
+
+Integers -
+    Common abbreviation: int
+    Ex: 0, 1, -1, 10000, -10232
+
+Floats -
+    Decimal numbers
+    Ex: 1.2, -99.2, 3.0, 0.03
+
+Strings -
+    Words and characters
+    Sometimes abbreviated str
+    Normally indicated by the "" but in python you can use single ''
+    Ex: "The brown fox", "Learning123!", "100.1"
+    Python: 'hello world'
+
+Chars -
+    Single characters
+    In python, there is no char, just a string of length 1
+    Normally indicated by single ''
+    Ex: 'a', '1', '$'
+
+Going between types:
+
+- say you have a string, "12", but you want to perform math on it
+- you need to first "cast" the string as an integer or float
+- Casting is the process of converting one data type to another
+
+to cast in python, we can use
+int()
+float()
+str()
+
+so to convert "12" to 12, we must do:
+int("12")
+float("12")
+
+**Note: input will automatically cast everything entered as a string
+
+
+What about going from a float with decimals to an integer which can't have decimals?
+-> The float will be truncated (the decimals will be removed, no rounding)
+Ex: int(7.9) = 7
