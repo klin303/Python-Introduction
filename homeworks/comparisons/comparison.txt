@@ -1,0 +1,21 @@
+Please enter the first number: 10
+Please enter the second number: 10
+Result: 10.0 is equal to 10.0
+The absolute difference is 0.0
+
+
+-----------------------
+
+Please enter the first number: -2.1
+Please enter the second number: 0
+Result: -2.1 is less than 0.0
+The absolute difference is 2.1
+
+
+----------------------
+
+Please enter the first number: 11.1
+Please enter the second number: 10.9
+Result: 11.1 is greater than 10.9
+The absolute difference is 0.2
+

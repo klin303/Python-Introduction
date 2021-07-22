@@ -1,0 +1,22 @@
+Oldest Homework Spec:
+- This program will take in the ages of three people and determine the age of the oldest person.
+- You should be able to complete this program in < 12 lines of code
+
+Sample Input and Output:
+
+>>> Age of first person: 2
+>>> Age of second person: 20
+>>> Age of third person: 82
+<<< Oldest is 82
+
+
+>>> Age of first person: 2
+>>> Age of second person:1
+>>> Age of third person: 1
+<<< Oldest is 2
+
+
+>>> Age of first person: 9
+>>> Age of second person: 9
+>>> Age of third person: 9
+<<< Ages are all equal

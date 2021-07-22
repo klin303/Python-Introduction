@@ -1,0 +1,17 @@
+Please enter a number:
+2
+Please enter another number:
+1
+The sum is: 3
+The difference is: 1
+
+
+
+---------
+
+Please enter a number:
+10
+Please enter another number:
+15
+The sum is: 25
+The difference is: -5
