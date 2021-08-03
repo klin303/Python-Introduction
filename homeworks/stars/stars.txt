@@ -1,0 +1,52 @@
+Purpose: Write a program that will take a positive integer as input and output
+         a staircase of stars aligned left then aligned right.
+         If the input is not positive, the program will keep requesting input
+         until a positive number is provided.
+
+         Note: We will treat 0 as an acceptable input 
+
+Examples:
+
+Case 1:
+>>> Input the number of rows: 3
+<<< *
+<<< **
+<<< ***
+<<< 
+<<<   *
+<<<  **
+<<< ***
+
+Case 2:
+>>> Input the number of rows: -10
+<<< Input must be positive or 0.
+>>> Input the number of rows: -1
+<<< Input must be positive or 0.
+>>> Input the number of rows: 1
+<<< *
+<<< 
+<<< *
+
+Case 3:
+>>> Input the number of rows: -1
+<<< Input must be positive or 0.
+>>> Input the number of rows: 0
+<<< 
+
+Case 4:
+>>> Input the number of rows: -3
+<<< Input must be positive or 0.
+>>> Input the number of rows: 6
+<<< *
+<<< **
+<<< ***
+<<< ****
+<<< *****
+<<< ******
+<<< 
+<<<      *
+<<<     **
+<<<    ***
+<<<   ****
+<<<  *****
+<<< ******
