@@ -5,6 +5,10 @@ Purpose: Write a program that will take a positive integer as input and output
 
          Note: We will treat 0 as an acceptable input 
 
+         Hint: Here is a neat trick we can use in python
+               string = "a" * 6
+               This will initialize string with 6 a's
+
 Examples:
 
 Case 1:
