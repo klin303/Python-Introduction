@@ -37,3 +37,18 @@ print("The computer has generated a random integer between 1 and 30. Start guess
 
 # WRITE CODE HERE
 
+guess = int(input("Enter number: "))
+attempts = 1
+
+while guess != random_num:
+    if guess < random_num:
+        print("Too low! Try again...")
+    elif guess > random_num:
+        print("Too high! Try again...")
+    guess = int(input("Enter number: "))
+    attempts = attempts + 1
+
+print("Correct!")
+print("That took", attempts, "attempts.")
+
+

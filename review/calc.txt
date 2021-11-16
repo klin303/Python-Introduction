@@ -1,0 +1,90 @@
+Calculator Project
+
+This will be a simple variation of RPN Calculator.
+The idea with an RPN Calculator, is that you put two numbers first, then the operation.
+
+Our calculator will take 2 numbers to start, which will be floats, and then an operation.
+When the operation is entered, the calculator will compute the result and output it.
+It will store the last value then allow you to enter in another number followed by an operation.
+
+The calculator will also have one other button. If we enter 'q', the program will quit.
+
+Later on, we will incorporate error handling into the calculator so we can only enter valid numbers and operations.
+For example, if we enter something like '97a', we would want to spit out an error and allow the user to correct their
+input. What would happen if we didn't come up with an error and allowed the user to input anything they wanted?
+
+Valid Operations:
++ = addition
+- = subtraction
+* = multiplication
+/ = division
+% = modulo
+
+Error Handling:
+If we are expecting a number but don't get one we output:
+'Invalid Input: Expecting Number'
+then re-accept new input.
+** More about how to check if things are numbers will come soon
+
+If we are expecting an operation but don't get one we output:
+'Invalid Input: Expecting Operation'
+then re-accept new input.
+
+--------------------------------------------------------------------------------------
+Example Program with Comments
+5.0 <- first input
+3.0 <- second input
++ <- operation
+8.0 <- answer which becomes our new first input
+4.0 <- new second input
+/ <- operation
+2.0 <- answer
+q <- quit will end the program
+
+---------------------------------------------------------------------------------------
+Another example w/ comments
+20.0
+10.5
+-
+9.5
+abc <- invalid input
+Invalid Input: Expecting Number <- error message
+0.5 <- valid input
++
+10.0
+1.0
+10.0 <- invalid input since we are expecting an operation
+Invalid Input: Expecting Operation
+{} <- another invalid input
+Invalid Input: Expecting Operation
+*
+10.0
+9.1
+q <- quit ends the program at any time
+
+---------------------------------------------------------------------------------------
+Example divided by sub-sections
+
+4
+-----------------
+5 - getting the second number
++ - getting the operation
+9 -answer
+-------------------
+3 - next number
+/ - operation
+3 - answer
+-----------------------
+7
++
+10
+-----------------------
+-20
++
+-10
+-----------------------
+q
+
+
+
+
