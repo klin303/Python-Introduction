@@ -1,0 +1,25 @@
+Lists (in python) or Arrays
+
+0. "Adi"
+1. "Kenny"
+2. "Daniel"
+3. "Brandon"
+4. "Sarah"
+5. "Megan"
+
+Index - how we refer to items in a list, it gives what position the item is in 
+
+
+arr = ["Adi", "Kenny", "Daniel", "Brandon", "Sarah", "Megan]
+
+
+name = arr[-3] 
+print(name)
+
+<< Kenny
+
+
+
+first = "kenny"
+name = [k, e, n, n, y]
+first[0]
