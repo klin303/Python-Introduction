@@ -16,7 +16,7 @@
 # This function will return the length of the list, arr
 def get_length(arr):
     ### WRITE CODE HERE ###
-    pass # remove when done
+    return len(arr)
 
 
 ################################################################################
@@ -25,9 +25,12 @@ def get_length(arr):
 # This function will return True if x is in arr
 # or False if x is not in the arr
 def is_element(arr, x):
-    ### WRITE CODE HERE ###
-    pass # remove when done
-
+    for i in range(len(arr)):
+        if x == arr[i]:
+            return True
+    return False
+      
+    
 
 ################################################################################
 # Task 3
