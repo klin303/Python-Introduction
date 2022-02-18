@@ -1,0 +1,42 @@
+Lists 
+
+A list is a collection of data values, represented with the []
+
+Element: a data value inside the list 
+
+Index: position of an element inside the list 
+    - indexes always start at 0
+
+Length of the List: how many elements are in the list 
+    - we get the length using the len(arr) function 
+
+
+Example Array:
+arr = ['a', 'b', 'c', 'd']
+
+len(arr) = 4
+
+Element at index 0: 'a'
+Element at index 1: 'b'
+...
+Element at index 3: 'd'
+
+To access a element inside the array, we use the []
+To get a specific element, we need to use the index of that element 
+arr[index]
+
+arr[0] = 'a'
+arr[1] = 'b'
+...
+arr[3] = 'd'
+
+Traversing:
+    - traversing is the process of visiting every element in a list 
+    - the easiest is a for loop 
+
+for i in range(len(arr)):
+    print(arr[i])
+
+This will print out every element in the array, starting with the element at
+index 0
+
