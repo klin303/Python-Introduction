@@ -27,14 +27,14 @@ What are some examples of functions?
     - And of course we have print() which we use all the time!
 """
 
-# get user input
-user_input = input()
-print(user_input)
-
-# convert a string into an integer
-txt = "12"
-number = int(txt)
-print(number + 1)
+# # get user input
+# user_input = input()
+# print(user_input)
+#
+# # convert a string into an integer
+# txt = "12"
+# number = int(txt)
+# print(number + 1)
 
 """
 How to identify functions?
@@ -52,12 +52,12 @@ Why do some functions require things inside the parentheses and others don't?
 
 # The input function has an optional parameter
 # We can use input without parameters like this...
-user_input = input()
-print(user_input)
-
-# We can also give input a parameter, in this case it's a prompt we want to print before the user enters something
-user_input = input("Please enter something: ")
-print(user_input)
+# user_input = input()
+# print(user_input)
+#
+# # We can also give input a parameter, in this case it's a prompt we want to print before the user enters something
+# user_input = input("Please enter something: ")
+# print(user_input)
 
 """
 Here is a new function which is very very very useful. It's called the len() function, short for length
@@ -68,20 +68,20 @@ What it does?
         - Calling len("txt") with a string as the parameter will return to you how many characters are in the string
 """
 
-txt = "word"
-# calling len(txt) will give you 4 since there are 4 characters in "word"
-length = len(txt)
-print(length)
+# txt = "word"
+# # calling len(txt) will give you 4 since there are 4 characters in "word"
+# length = len(txt)
+# print(length)
 
 # here is another example
-txt = "count me!"
-txt_length = len(txt)
-print(txt_length)
-
-# here is an example where you can enter something
-user_input = input("Enter something:")
-length_input = len(user_input)
-print("Length of the string you entered:", length_input)
+# txt = "count me!"
+# txt_length = len(txt)
+# print(txt_length)
+#
+# # here is an example where you can enter something
+# user_input = input("Enter something:")
+# length_input = len(user_input)
+# print("Length of the string you entered:", length_input)
 
 """
 Sometimes, functions belong to / are a part of bigger collections. For example, strings have many functions which 
@@ -99,13 +99,13 @@ string.lower()
         - string would be the string we want to convert to lowercase
 """
 
-string = "HELLO"
-lower_string = string.lower()
-print(lower_string)
+# string = "HELLO"
+# lower_string = string.lower()
+# print(lower_string)
 
 # here is another exmaple, what do you think happens to the lower-case letters
-txt = "Hi Mom!"
-print(txt.lower())
+# txt = "Hi Mom!"
+# print(txt.lower())
 # here we say that txt is calling the lower function
 # txt in a way owns the lower function and is telling it to do something like how you might tell your microwave to run
 
@@ -119,13 +119,13 @@ string.count("target")
         - target would be the string we are looking for
 """
 
-search_string = "go google"
-target_string = "go"
-target_count = search_string.count(target_string) # go should appear 2 times in the search string
-print(target_count)
-
-search_string = "substitute subway sub"
-target_string = "sub"
+# search_string = "go google"
+# target_string = "go"
+# target_count = search_string.count(target_string) # go should appear 2 times in the search string
+# print(target_count)
+#
+# search_string = "substitute subway sub"
+# target_string = "sub"
 #######################
 # You try printing out how many times the target appears
 #######################
@@ -175,3 +175,8 @@ def is_float(txt):
     except ValueError:
         return False
 
+
+
+
+sample4 = "123.5"
+print(is_float(sample4))

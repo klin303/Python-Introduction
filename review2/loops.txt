@@ -1,0 +1,82 @@
+help me plz help me plz help me save me like you wanna love me kill me maim me
+like a potato peeler 
+hash map hash browns 
+mcdonald's or burger king?
+
+ssh klin04@homework.cs.tufts.edu
+
+
+################################################################################
+Problem 1
+################################################################################
+
+value = 5
+
+while (value < 33):
+    value += 10
+
+value = ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+################################################################################
+Problem 2
+################################################################################
+
+value = 10
+
+while (value < 50):
+    if ((value % 2 == 0) and value <= 30):
+        value += 8
+    elif (value % 2 == 0):
+        value += 7
+    else:
+        value += 12
+
+
+value = ?
+
+
+
+
+
+
+
+
+################################################################################
+Problem 3
+################################################################################
+
+answer = 0
+
+# range(10) = (0, 1, 2, 3, 4, ... 9)
+
+for i in range(10):
+    answer += i 
+    if (i == 5 or i >= 9):
+        answer -= 1
+
+
+answer = ?

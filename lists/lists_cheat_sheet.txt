@@ -40,3 +40,14 @@ for i in range(len(arr)):
 This will print out every element in the array, starting with the element at
 index 0
 
+
+Easier way of Traversing:
+
+Enhanced For Loop:
+
+arr = ['a', 'b' 'c', 'd']
+
+- you declare a variable that will represent each element inside the list 
+
+for x in arr:
+    print(x)

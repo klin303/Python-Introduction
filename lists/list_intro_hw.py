@@ -90,7 +90,7 @@ test_function('is_element', is_element(arr2, 'dog'), True)
 test_function('is_element', is_element(arr3, 10), False)
 
 # get_index
-test_function('get_index', get_index(arr1, 7), 9)
+test_function('get_index', get_index(arr1, 7), 7)
 test_function('get_index', get_index(arr1, 11), -1)
 test_function('get_index', get_index(arr2, 'bye'), 1)
 test_function('get_index', get_index(arr3, 1), -1)
