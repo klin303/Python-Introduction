@@ -4,7 +4,10 @@
 # Ex: sumList([1, 2, 3]) returns 6
 ###############################
 def sumList(arr):
-    pass # code here
+    sum = 0
+    for x in arr:
+        sum += x 
+    return sum 
 
 
 
@@ -14,8 +17,21 @@ test_2 = [1]
 test_3 = [-1, 0, 1]
 
 
+print(sumList(test_1))
 
 
+for x in arr:
+    print(x)
+
+arr[1, 2, 3, 4, 5]
+
+0 + 1 = 1
+1 + 2 = 3
+3 + 3 = 6
+6 + 4 = 10
+10 + 5 = 15 -> return 15
+
+((((0 + 1) + 2) + 3) + 4) + 5
 
 
 
@@ -51,3 +67,5 @@ x = [1, 2, 3, 4, 5]
 y = [1]
 z = [-1, -2, -100]
 
+for i in range(len(arr)):
+    print(arr[i])
